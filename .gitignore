@@ -1,0 +1,71 @@
+﻿# Visual Studio-specific files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+.nuget/
+
+# Windows-specific temp files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Logs and crash dumps
+*.log
+*.tlog
+*.dmp
+
+# Resharper / Rider files
+*.DotSettings.user
+.idea/
+
+# Rider-specific cache
+.idea/
+*.sln.iml
+
+# Windows Forms Designer
+*.Designer.cs
+
+# Publish-related files
+publish/
+app.publish/
+
+# Entity Framework (EF) migrations
+Migrations/
+
+# Rider / JetBrains-related
+*.dotCover
+*.dotTrace
+
+# Temporary files
+*.bak
+*.tmp
+*.old
+
+# Environment variables (if using secrets)
+.env
+.env.local
+
+# Optional: Ignore user-specific files
+*.csproj.user
+*.vsconfig
