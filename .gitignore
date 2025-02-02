@@ -8,7 +8,9 @@
 *.sln.docstates
 
 # Included Publish folder for deployment files
+dist/*
 !dist/Publish/
+!dist/Publish/**
 
 # Build files
 bin/
