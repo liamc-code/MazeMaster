@@ -7,6 +7,9 @@
 *.userosscache
 *.sln.docstates
 
+# Included Publish folder for deployment files
+!dist/Publish/
+
 # Build files
 bin/
 obj/

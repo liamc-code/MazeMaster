@@ -114,6 +114,12 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="dist\Publish\Application Files\MazeMaster_1_0_0_0\maze.ico.deploy" />
+    <None Include="dist\Publish\Application Files\MazeMaster_1_0_0_0\MazeMaster.application" />
+    <None Include="dist\Publish\Application Files\MazeMaster_1_0_0_0\MazeMaster.exe.config.deploy" />
+    <None Include="dist\Publish\Application Files\MazeMaster_1_0_0_0\MazeMaster.exe.deploy" />
+    <None Include="dist\Publish\Application Files\MazeMaster_1_0_0_0\MazeMaster.exe.manifest" />
+    <None Include="dist\Publish\MazeMaster.application" />
     <None Include="MazeMaster_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -153,6 +159,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="dist\Publish\setup.exe" />
     <Content Include="maze.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -167,5 +174,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
